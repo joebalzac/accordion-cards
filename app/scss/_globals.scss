@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient((hsl(273, 75%, 66%), hsl(240, 73%, 65%)));
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100vw;
+  height: 100vh;
+
+  @include breakpoint-up(large) {
+    overflow: hidden;
+  }
+}
