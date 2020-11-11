@@ -8,7 +8,7 @@ for (i = 0; i < question.length; i++) {
       question[x].classList.remove("active");
       question[x].nextElementSibling.classList.remove("show--answer");
     }
-    //function answer 
+    //function answer
     this.classList.toggle("active");
     var answer = this.nextElementSibling;
     if (answer.className == "answer show--answer") {
