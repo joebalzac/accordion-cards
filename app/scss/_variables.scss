@@ -3,3 +3,43 @@ $softBlue: hsl(240, 73%, 65%);
 $veryDark: hsl(237, 12%, 33%);
 $darkGrayish: hsl(240, 6%, 50%);
 $lightGrayish: hsl(240, 5%, 91%);
+
+@keyframes up {
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes down {
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
